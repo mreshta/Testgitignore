@@ -1,6 +1,7 @@
+@Smoke
 Feature: Token Responses
 
-  Scenario: Login With Wrong username Valid Password. Validating the response
+  Scenario: Validating the response with wrong username valid password. 
     Given url "https://tek-insurance-api.azurewebsites.net"
     And path "/api/token"
     And request {"username": "wrongUsername", "password": "tek_supervisor"}

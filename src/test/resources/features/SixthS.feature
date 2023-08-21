@@ -1,4 +1,5 @@
-Feature: Validate response
+@Smoke
+Feature: Validating Response
 
   #Background: 
     #Given url "https://tek-insurance-api.azurewebsites.net"

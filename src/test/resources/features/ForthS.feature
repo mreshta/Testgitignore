@@ -1,6 +1,7 @@
+@Smoke
 Feature: Validating the Response
 
-  Scenario: Verify Valid token and response
+  Scenario: Verify valid token and response
     Given url "https://tek-insurance-api.azurewebsites.net"
     And path "/api/token"
     And request {"username": "supervisor", "password": "tek_supervisor"}
