@@ -1,4 +1,4 @@
-@Smoke
+
 Feature: Response Validation
 
   Background: 
